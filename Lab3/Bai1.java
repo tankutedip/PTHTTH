@@ -1,7 +1,7 @@
 packed IPAddress;
 
 import java.net.InetAddress;
-import java.net.UnKnownHostException;
+import java.net.UnknownHostException;
 
 public class TimDCIP{
   public static void main(String[] args)
@@ -12,7 +12,7 @@ public class TimDCIP{
       System.out.println("Host name:" + hostName);
       System.out.println("Dia chi IP:" + host.getHostAddress());
     }
-    catch(UnKnownHostException e)
+    catch(UnknownHostException e)
     {
       System.out.printl("Khong tim thay dia chi");
       return;
