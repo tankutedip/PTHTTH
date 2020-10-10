@@ -11,7 +11,7 @@ public class PhanLoaiDCIP {
 			{
 				System.out.println("Cach su dung: java TimDCIP <Hostname>");
 			}
-		InetAddress host = InetAddress.getByName("www.google.com");
+		InetAddress host = InetAddress.getByName("iuh.edu.vn");
 				String hostName = host.getHostName();
 				System.out.println("Host name:" + hostName);
 				System.out.println("Dia chi IP:" + host.getHostAddress());
