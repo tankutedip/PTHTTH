@@ -7,7 +7,7 @@ public class TimDCIP {
 
 	public static void main(String[] args) {
 		try {
-			InetAddress host = InetAddress.getByName("www.google.com");
+			InetAddress host = InetAddress.getByName("iuh.edu.vn");
 			String hostName = host.getHostName();
 			System.out.println("Host name: "+hostName);
 			System.out.println("Dia Chi IP: "+host.getHostAddress());
